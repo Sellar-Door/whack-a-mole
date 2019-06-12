@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Carter+One&display=swap');
+
+
+body {
+    margin: 100px;
+    padding: 0;
+
+}
+
+h1 {
+    text-align:center;
+    font-family: "Carter One";
+}
+
+button{
+    background-color: orange;
+    
+}
+.grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+
+  }
+
+
+div.field.field1 {
+    position: absolute;
+    bottom: 0;
+    height:400px;
+    width: 400px;
+    background-image: url("field.png")
+    }
+    
+
+
+div.field.field2 {
+position: absolute;
+bottom: 0;
+height: 400px;
+width: 400px;
+background-image: url("field.png")
+}
+
+
+div.field.field3 {
+    position: absolute;
+    bottom: 0;
+    height: 400px;
+    width: 400px;
+    background-image: url("field.png")
+    }
+    
+ div.field.field4 {
+     position: absolute;
+        bottom: 0;
+        height: 400px;
+        width: 400px;
+        background-image: url("field.png")
+        }
+
+
+        div.field.field5 {
+            position: absolute;
+            bottom: 0;
+            height: 400px;
+            width: 400px;
+            background-image: url("field.png")
+            }
+            
+            div.field.field6 {
+                position: absolute;
+                bottom: 0;
+                height: 400px;
+                width: 400px;
+                background-image: url("field.png")
+                }
+                
+        
+
+
+
+.mrbump {
+    background: url("mrbump.png") bottom center no-repeat;
+    background-size: 60%;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s;
+}
+
+.field.up .mrbump {
+    top:0;
+}
